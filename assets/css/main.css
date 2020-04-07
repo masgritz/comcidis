@@ -375,11 +375,18 @@ section#projects div.lineContainer div.line {
     background-color: white;
 }
 
+section#projects h1.topic {
+    color: white;
+    font-size: 65px;
+    font-weight: lighter;
+    
+}
+
 section#projects div.project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 1em;
-    padding: 0em 4em 0em 4em;
+    padding: 1em 8em 0em 8em;
 }
 
 section#projects .project {
