@@ -410,6 +410,10 @@ section#projects .project-icon {
 }
 
 @media only screen and (max-width: 500px) {
+    section#projects h1.topic {
+        font-size: 40px;
+    }
+
     section#projects div.project-grid {
         display: grid;
         grid-template-columns: 1fr;
