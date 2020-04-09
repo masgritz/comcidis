@@ -352,6 +352,7 @@ section#projects .project p {
     font-size: large;
     color: white;
     font-weight: 500;
+    text-align: justify;
 }
 
 section#projects .project-icon {
@@ -430,6 +431,81 @@ section#team div.person p {
     }
     
     section#team div.person {
+        padding: 0em 0.5em 0em 0.5em;
+    }
+}
+
+/* Publications Section CSS */
+section#publications {
+    padding: 2em 0;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/bgPub.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section#publications div.lineContainer div.line {
+    background-color: #2188ff;
+}
+
+section#publications h1.year {
+    font-size: 65px;
+    font-weight: lighter;
+}
+
+section#publications a, h3 {
+    color: #2188ff;
+    text-decoration: none;
+    outline: 0;
+}
+
+section#publication a:hover, h3:hover {
+    color: #c7cbd4;
+}
+
+section#publications h4.pub-type {
+    font-style: italic;
+    color: #7992a0;
+}
+
+section#publications div.paper {
+    text-align: justify;
+}
+
+section#publications .lattes {
+    width: 1.8em;
+}
+
+section#publications div.pub-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-gap: 1em;
+    padding: 0em 2em 2em 2em;
+}
+
+section#publications div.paper {
+    padding: 1em 1em 1em 1em;
+}
+
+section#publications div.paper p {
+    padding-top: 0.5em;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 500px) {
+    section#publications div.pub-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1em;
+        padding: 0em 1em 0em 1em;
+    }
+    
+    section#publications div.person {
         padding: 0em 0.5em 0em 0.5em;
     }
 }
