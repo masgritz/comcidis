@@ -475,10 +475,6 @@ section#publications div.paper {
     text-align: justify;
 }
 
-section#publications .lattes {
-    width: 1.8em;
-}
-
 section#publications div.pub-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
@@ -494,7 +490,6 @@ section#publications div.paper p {
     padding-top: 0.5em;
     font-size: 15px;
     font-weight: 500;
-    text-align: justify;
 }
 
 @media only screen and (max-width: 500px) {
