@@ -400,6 +400,16 @@ section#team .profile-pic {
     border-radius: 35%;
 }
 
+section#team .bruno {
+    margin: 0em 12em 0em 12em;
+}
+
+section#team .bruno-pic {
+    width: 25vh;
+    height: auto;
+    border-radius: 35%;
+}
+
 section#team .lattes {
     width: 1.8em;
 }
