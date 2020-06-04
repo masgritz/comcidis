@@ -401,7 +401,7 @@ section#team .profile-pic {
 }
 
 section#team .bruno {
-    margin: 0em 12em 0em 12em;
+    margin: 0em 20em 0em 20em;
 }
 
 section#team .bruno-pic {
@@ -442,6 +442,10 @@ section#team div.person p {
     
     section#team div.person {
         padding: 0em 0.5em 0em 0.5em;
+    }
+
+    section#team p.bruno {
+        margin: 0em 0.5em 0.5em 0.5em;
     }
 }
 
